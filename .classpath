@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/speech/cmu_time_awb.jar"/>
+	<classpathentry kind="lib" path="D:/speech/cmu_us_kal.jar"/>
+	<classpathentry kind="lib" path="D:/speech/cmudict04.jar"/>
+	<classpathentry kind="lib" path="D:/speech/cmulex.jar"/>
+	<classpathentry kind="lib" path="D:/speech/cmutimelex.jar"/>
+	<classpathentry kind="lib" path="D:/speech/en_us.jar"/>
+	<classpathentry kind="lib" path="D:/speech/freetts.jar"/>
+	<classpathentry kind="lib" path="D:/speech/freetts-jsapi10.jar"/>
+	<classpathentry kind="lib" path="D:/speech/mbrola.jar"/>
+	<classpathentry kind="lib" path="D:/speech/jsapi.jar"/>
+	<classpathentry kind="lib" path="D:/jars/selenium-shutterbug-0.9.jar"/>
+	<classpathentry kind="lib" path="D:/jars/webdrivermanager-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/miracle/Downloads/selenium-server-standalone-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/miracle/Downloads/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/jars/UsefulJars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="D:/jars/extentreports/extentreports-java-v2.41.1/extentreports-java-2.41.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
