@@ -98,8 +98,8 @@ public static void main(String[] args) throws Exception {
 //	TakesScreenshot ts= (TakesScreenshot) driver;
 //	String screen=ts.getScreenshotAs(OutputType.BASE64);
 //	System.out.println(screen);
-	Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS).withName("MyScreenShot").save();
-	byte[] fileContent = FileUtils.readFileToByteArray(new File("D:\\Oxygen\\Selenium\\screenshots\\MyScreenShot.png"));
+	Shutterbug.shootPage(driver, ScrollStrategy.BOTH_DIRECTIONS).withName("MyScreenShot1").save();
+	byte[] fileContent = FileUtils.readFileToByteArray(new File("D:\\Oxygen\\Selenium\\screenshots\\MyScreenShot1.png"));
 	String encodedString = Base64.getEncoder().encodeToString(fileContent);
 	
 	test.log(LogStatus.PASS, "This is screenshot "+test.addScreenCapture("data:image/gif;base64,"+encodedString));
